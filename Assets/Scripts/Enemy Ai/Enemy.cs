@@ -7,6 +7,9 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 2;
 
+    [SerializeField]
+    private float increaseSpeed = 1;
+
     private Transform player;
     private float playerDistance;
 
@@ -21,12 +24,21 @@ public class Enemy : MonoBehaviour
     {
         playerDistance = Vector3.Distance(transform.position, player.position);
         //Debug.Log(playerDistance);
+        //Debug.Log(moveSpeed);
         Chase();
     }
+
+    //increase speed overtime
+    private float Speed() 
+    {
+        moveSpeed += increaseSpeed * Time.deltaTime;
+        return moveSpeed;
+    }
+
     private void Chase()
     {
         Vector3 targetPosition = new Vector3(player.position.x, player.position.y, player.position.z);
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, Speed() * Time.deltaTime);
         transform.LookAt(targetPosition);
     }
 }
