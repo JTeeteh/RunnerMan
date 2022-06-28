@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-/// added if(pm.wallrunning) return;
-
 public class Sliding : MonoBehaviour
 {
     [Header("References")]
