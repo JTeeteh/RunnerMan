@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     //increase speed overtime
     private float Speed() 
     {
-        moveSpeed += increaseSpeed * Time.deltaTime;
+        //moveSpeed += increaseSpeed * Time.deltaTime;
         return moveSpeed;
     }
 
@@ -41,4 +41,5 @@ public class Enemy : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, Speed() * Time.deltaTime);
         transform.LookAt(targetPosition);
     }
+
 }
