@@ -1,7 +1,4 @@
-﻿// Author: Daniele Giardini - http://www.demigiant.com
-// Created: 2018/07/13
-
-using System;
+﻿using System;
 using System.Reflection;
 using UnityEngine;
 using DG.Tweening.Core;
@@ -11,18 +8,7 @@ using DG.Tweening.Plugins.Options;
 #pragma warning disable 1591
 namespace DG.Tweening
 {
-    /// <summary>
-    /// Utility functions that deal with available Modules.
-    /// Modules defines:
-    /// - DOTAUDIO
-    /// - DOTPHYSICS
-    /// - DOTPHYSICS2D
-    /// - DOTSPRITE
-    /// - DOTUI
-    /// Extra defines set and used for implementation of external assets:
-    /// - DOTWEEN_TMP ► TextMesh Pro
-    /// - DOTWEEN_TK2D ► 2D Toolkit
-    /// </summary>
+
 	public static class DOTweenModuleUtils
     {
         static bool _initialized;
@@ -77,10 +63,6 @@ namespace DG.Tweening
             DOTween.instance.OnApplicationPause(UnityEditor.EditorApplication.isPaused);
         }
 #endif
-
-        // █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-        // ███ INTERNAL CLASSES ████████████████████████████████████████████████████████████████████████████████████████████████
-        // █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
         public static class Physics
         {

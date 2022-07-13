@@ -1,21 +1,13 @@
-﻿// Author: Daniele Giardini - http://www.demigiant.com
-// Created: 2018/07/13
-
-using System;
+﻿using System;
 using UnityEngine;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
-//#if UNITY_2018_1_OR_NEWER && (NET_4_6 || NET_STANDARD_2_0)
-//using Task = System.Threading.Tasks.Task;
-//#endif
+
 
 #pragma warning disable 1591
 namespace DG.Tweening
 {
-    /// <summary>
-    /// Shortcuts/functions that are not strictly related to specific Modules
-    /// but are available only on some Unity versions
-    /// </summary>
+
 	public static class DOTweenModuleUnityVersion
     {
 #if UNITY_4_3 || UNITY_4_4 || UNITY_4_5 || UNITY_4_6 || UNITY_5 || UNITY_2017_1_OR_NEWER
@@ -315,10 +307,6 @@ namespace DG.Tweening
         #endregion
 #endif
     }
-
-    // █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-    // ███ CLASSES █████████████████████████████████████████████████████████████████████████████████████████████████████████
-    // █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
 #if UNITY_5_3_OR_NEWER || UNITY_2017_1_OR_NEWER
     public static class DOTweenCYInstruction
