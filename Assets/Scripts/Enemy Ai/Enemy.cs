@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     //increase speed overtime
     private float Speed() 
     {
-        //moveSpeed += increaseSpeed * Time.deltaTime;
+        moveSpeed += increaseSpeed * Time.deltaTime;
         return moveSpeed;
     }
 
