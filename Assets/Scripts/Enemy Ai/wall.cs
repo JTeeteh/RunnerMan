@@ -19,6 +19,6 @@ public class wall : Traps
     protected override void Trigger()
     {
 
-        gameObject.GetComponent<Animator>().Play("Wall(12)");
+        ;
     }
 }
