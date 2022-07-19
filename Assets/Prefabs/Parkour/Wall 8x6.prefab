@@ -30,6 +30,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.70710576, w: 0.7071078}
   m_LocalPosition: {x: -1.979991, y: 1.9100001, z: 0.060001552}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5290668089648124480}
   m_Father: {fileID: 7982491437521523825}
@@ -47,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -1903,6 +1904,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1918,6 +1920,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2000,6 +2003,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.70710576, w: 0.7071078}
   m_LocalPosition: {x: 2.0200014, y: -1.0900114, z: 0.060001552}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6229914158981647949}
   m_Father: {fileID: 7982491437521523825}
@@ -2017,7 +2021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -3873,6 +3877,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3888,6 +3893,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3970,6 +3976,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.70710576, w: 0.7071078}
   m_LocalPosition: {x: 2.020009, y: 1.9099886, z: 0.060001552}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2034023599097419298}
   m_Father: {fileID: 7982491437521523825}
@@ -3987,7 +3994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -5843,6 +5850,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -5858,6 +5866,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5940,6 +5949,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.1090012, y: -0.13700068, z: -0.119999334}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8341498521795238051}
   m_RootOrder: 0
@@ -5956,7 +5966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -6001,7 +6011,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6035,7 +6045,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6052,7 +6062,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6104,22 +6114,22 @@ MonoBehaviour:
   - {x: 0.06562765, y: -1.8371439}
   - {x: 0.1926494, y: 2.065825}
   - {x: 0.065627605, y: 2.0658255}
-  - {x: -0.13109119, y: -1.8371439}
-  - {x: -3.044678, y: -1.8371444}
-  - {x: -0.13109119, y: 2.0658255}
-  - {x: -3.044678, y: 2.0658288}
+  - {x: -0.13109107, y: -1.8371439}
+  - {x: -3.0446777, y: -1.8371444}
+  - {x: -0.13109107, y: 2.0658255}
+  - {x: -3.0446777, y: 2.0658288}
   - {x: -0.06562042, y: -1.8371444}
   - {x: -0.19264221, y: -1.8371444}
   - {x: -0.06562042, y: 2.0658288}
   - {x: -0.19264221, y: 2.0658288}
-  - {x: -3.0446808, y: 0.19264221}
-  - {x: -0.13109407, y: 0.1926494}
-  - {x: -3.0446808, y: 0.06562042}
-  - {x: -0.13109407, y: 0.065627605}
-  - {x: 3.0446784, y: 0.06562042}
-  - {x: 0.13109165, y: 0.06562765}
-  - {x: 3.0446784, y: 0.19264221}
-  - {x: 0.13109165, y: 0.19264944}
+  - {x: -3.0446806, y: 0.19264221}
+  - {x: -0.13109395, y: 0.1926494}
+  - {x: -3.0446806, y: 0.06562042}
+  - {x: -0.13109395, y: 0.065627605}
+  - {x: 3.0446782, y: 0.06562042}
+  - {x: 0.13109154, y: 0.06562765}
+  - {x: 3.0446782, y: 0.19264221}
+  - {x: 0.13109154, y: 0.19264944}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -6132,8 +6142,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 1, y: 0, z: 0.0000024804694, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
   - {x: 1, y: 0, z: 0.0000024651263, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
@@ -6144,8 +6154,8 @@ MonoBehaviour:
   - {x: 1, y: -0.0000012274442, z: 0, w: -1}
   - {x: 1, y: -0.0000011456096, z: 0, w: -1}
   - {x: -1, y: -0.00000016365983, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
   - {x: -1, y: -0.000000040921943, z: 0, w: -1}
   m_Colors:
   - {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
@@ -6180,6 +6190,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -6195,6 +6206,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6277,6 +6289,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.1090012, y: -0.13700068, z: -0.119999334}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4936743420177064897}
   m_RootOrder: 0
@@ -6293,7 +6306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -6338,7 +6351,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6372,7 +6385,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6389,7 +6402,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -6441,22 +6454,22 @@ MonoBehaviour:
   - {x: 0.06562765, y: -1.8371439}
   - {x: 0.1926494, y: 2.065825}
   - {x: 0.065627605, y: 2.0658255}
-  - {x: -0.13109119, y: -1.8371439}
-  - {x: -3.044678, y: -1.8371444}
-  - {x: -0.13109119, y: 2.0658255}
-  - {x: -3.044678, y: 2.0658288}
+  - {x: -0.13109107, y: -1.8371439}
+  - {x: -3.0446777, y: -1.8371444}
+  - {x: -0.13109107, y: 2.0658255}
+  - {x: -3.0446777, y: 2.0658288}
   - {x: -0.06562042, y: -1.8371444}
   - {x: -0.19264221, y: -1.8371444}
   - {x: -0.06562042, y: 2.0658288}
   - {x: -0.19264221, y: 2.0658288}
-  - {x: -3.0446808, y: 0.19264221}
-  - {x: -0.13109407, y: 0.1926494}
-  - {x: -3.0446808, y: 0.06562042}
-  - {x: -0.13109407, y: 0.065627605}
-  - {x: 3.0446784, y: 0.06562042}
-  - {x: 0.13109165, y: 0.06562765}
-  - {x: 3.0446784, y: 0.19264221}
-  - {x: 0.13109165, y: 0.19264944}
+  - {x: -3.0446806, y: 0.19264221}
+  - {x: -0.13109395, y: 0.1926494}
+  - {x: -3.0446806, y: 0.06562042}
+  - {x: -0.13109395, y: 0.065627605}
+  - {x: 3.0446782, y: 0.06562042}
+  - {x: 0.13109154, y: 0.06562765}
+  - {x: 3.0446782, y: 0.19264221}
+  - {x: 0.13109154, y: 0.19264944}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -6469,8 +6482,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 1, y: 0, z: 0.0000024804694, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
   - {x: 1, y: 0, z: 0.0000024651263, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
@@ -6481,8 +6494,8 @@ MonoBehaviour:
   - {x: 1, y: -0.0000012274442, z: 0, w: -1}
   - {x: 1, y: -0.0000011456096, z: 0, w: -1}
   - {x: -1, y: -0.00000016365983, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
   - {x: -1, y: -0.000000040921943, z: 0, w: -1}
   m_Colors:
   - {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
@@ -6517,6 +6530,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -6532,6 +6546,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6610,6 +6625,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.13, y: 3.59, z: 0.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7283234334655753988}
   - {fileID: 4936743420177064897}
@@ -6648,6 +6664,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.70710576, w: 0.7071078}
   m_LocalPosition: {x: -1.9799986, y: -1.0899999, z: 0.060001552}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7283234336346392207}
   m_Father: {fileID: 7982491437521523825}
@@ -6665,7 +6682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -8521,6 +8538,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8536,6 +8554,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8618,6 +8637,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.1090012, y: -0.13700068, z: -0.119999334}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7283234334655753988}
   m_RootOrder: 0
@@ -8634,7 +8654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -8679,7 +8699,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -8713,7 +8733,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -8730,7 +8750,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -8782,22 +8802,22 @@ MonoBehaviour:
   - {x: 0.06562765, y: -1.8371439}
   - {x: 0.1926494, y: 2.065825}
   - {x: 0.065627605, y: 2.0658255}
-  - {x: -0.13109119, y: -1.8371439}
-  - {x: -3.044678, y: -1.8371444}
-  - {x: -0.13109119, y: 2.0658255}
-  - {x: -3.044678, y: 2.0658288}
+  - {x: -0.13109107, y: -1.8371439}
+  - {x: -3.0446777, y: -1.8371444}
+  - {x: -0.13109107, y: 2.0658255}
+  - {x: -3.0446777, y: 2.0658288}
   - {x: -0.06562042, y: -1.8371444}
   - {x: -0.19264221, y: -1.8371444}
   - {x: -0.06562042, y: 2.0658288}
   - {x: -0.19264221, y: 2.0658288}
-  - {x: -3.0446808, y: 0.19264221}
-  - {x: -0.13109407, y: 0.1926494}
-  - {x: -3.0446808, y: 0.06562042}
-  - {x: -0.13109407, y: 0.065627605}
-  - {x: 3.0446784, y: 0.06562042}
-  - {x: 0.13109165, y: 0.06562765}
-  - {x: 3.0446784, y: 0.19264221}
-  - {x: 0.13109165, y: 0.19264944}
+  - {x: -3.0446806, y: 0.19264221}
+  - {x: -0.13109395, y: 0.1926494}
+  - {x: -3.0446806, y: 0.06562042}
+  - {x: -0.13109395, y: 0.065627605}
+  - {x: 3.0446782, y: 0.06562042}
+  - {x: 0.13109154, y: 0.06562765}
+  - {x: 3.0446782, y: 0.19264221}
+  - {x: 0.13109154, y: 0.19264944}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -8810,8 +8830,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 1, y: 0, z: 0.0000024804694, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
   - {x: 1, y: 0, z: 0.0000024651263, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
@@ -8822,8 +8842,8 @@ MonoBehaviour:
   - {x: 1, y: -0.0000012274442, z: 0, w: -1}
   - {x: 1, y: -0.0000011456096, z: 0, w: -1}
   - {x: -1, y: -0.00000016365983, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
   - {x: -1, y: -0.000000040921943, z: 0, w: -1}
   m_Colors:
   - {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
@@ -8858,6 +8878,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8873,6 +8894,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8955,6 +8977,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.1090012, y: -0.13700068, z: -0.119999334}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4525523114029585836}
   m_RootOrder: 0
@@ -8971,7 +8994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MeshFormatVersion: 1
+  m_MeshFormatVersion: 2
   m_Faces:
   - m_Indexes: 000000000100000002000000010000000300000002000000
     m_SmoothingGroup: 0
@@ -9016,7 +9039,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -9050,7 +9073,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: -0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -9067,7 +9090,7 @@ MonoBehaviour:
       m_SwapUV: 0
       m_Fill: 1
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0.00000011920929, y: 0}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
@@ -9119,22 +9142,22 @@ MonoBehaviour:
   - {x: 0.06562765, y: -1.8371439}
   - {x: 0.1926494, y: 2.065825}
   - {x: 0.065627605, y: 2.0658255}
-  - {x: -0.13109119, y: -1.8371439}
-  - {x: -3.044678, y: -1.8371444}
-  - {x: -0.13109119, y: 2.0658255}
-  - {x: -3.044678, y: 2.0658288}
+  - {x: -0.13109107, y: -1.8371439}
+  - {x: -3.0446777, y: -1.8371444}
+  - {x: -0.13109107, y: 2.0658255}
+  - {x: -3.0446777, y: 2.0658288}
   - {x: -0.06562042, y: -1.8371444}
   - {x: -0.19264221, y: -1.8371444}
   - {x: -0.06562042, y: 2.0658288}
   - {x: -0.19264221, y: 2.0658288}
-  - {x: -3.0446808, y: 0.19264221}
-  - {x: -0.13109407, y: 0.1926494}
-  - {x: -3.0446808, y: 0.06562042}
-  - {x: -0.13109407, y: 0.065627605}
-  - {x: 3.0446784, y: 0.06562042}
-  - {x: 0.13109165, y: 0.06562765}
-  - {x: 3.0446784, y: 0.19264221}
-  - {x: 0.13109165, y: 0.19264944}
+  - {x: -3.0446806, y: 0.19264221}
+  - {x: -0.13109395, y: 0.1926494}
+  - {x: -3.0446806, y: 0.06562042}
+  - {x: -0.13109395, y: 0.065627605}
+  - {x: 3.0446782, y: 0.06562042}
+  - {x: 0.13109154, y: 0.06562765}
+  - {x: 3.0446782, y: 0.19264221}
+  - {x: 0.13109154, y: 0.19264944}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -9147,8 +9170,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 0, y: 0, z: 1, w: -1}
   - {x: 1, y: 0, z: 0.0000024804694, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
-  - {x: 1, y: 0, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
+  - {x: 1, y: -1.3021363e-21, z: 0.0000024727979, w: -1}
   - {x: 1, y: 0, z: 0.0000024651263, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
   - {x: 0, y: 0, z: -1, w: -1}
@@ -9159,8 +9182,8 @@ MonoBehaviour:
   - {x: 1, y: -0.0000012274442, z: 0, w: -1}
   - {x: 1, y: -0.0000011456096, z: 0, w: -1}
   - {x: -1, y: -0.00000016365983, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
-  - {x: -1, y: -0.00000010229089, z: 0, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
+  - {x: -1, y: -0.00000010229089, z: -1.0002609e-20, w: -1}
   - {x: -1, y: -0.000000040921943, z: 0, w: -1}
   m_Colors:
   - {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
@@ -9195,6 +9218,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+  m_VersionIndex: 0
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -9210,6 +9234,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
