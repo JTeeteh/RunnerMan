@@ -2,18 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Dave's Tutorials - LedgeGrabbing
-///
-// Content:
-/// - detecting and moving towards ledges
-/// - holding onto ledges
-/// - jumping away from ledges
-///
-// Note:
-/// This script is kind of like an extension of the Climbing script, 
-/// this way it's easier to understand and I can keep the script shorter 
-/// 
-
 public class LedgeGrabbingDone : MonoBehaviour
 {
     [Header("References")]
