@@ -696,7 +696,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-125958
+  m_Name: pb_Mesh22748
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -860,7 +860,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-125962
+  m_Name: pb_Mesh22738
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1355,6 +1355,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5c50335d5ead4abea041e6e413ccd, type: 3}
+--- !u!1 &719282159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1210666825371280, guid: 39aeb83d96ac82246bf5c092137070cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2030867152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &719282165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719282159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76ab4fac52050546ab572ba25976c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTrigDist: 0
+  maxTrigDist: 10
+  material: {fileID: 2100000, guid: 1f394670319de4e4eb2fa55d0acb258e, type: 2}
 --- !u!1001 &729143464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2238,6 +2259,7 @@ GameObject:
   - component: {fileID: 1074940712}
   - component: {fileID: 1074940711}
   - component: {fileID: 1074940710}
+  - component: {fileID: 1074940714}
   m_Layer: 10
   m_Name: RealGroundPlane
   m_TagString: Untagged
@@ -2302,7 +2324,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 1f394670319de4e4eb2fa55d0acb258e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2532,6 +2554,21 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &1074940714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074940708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76ab4fac52050546ab572ba25976c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTrigDist: 0
+  maxTrigDist: 10
+  material: {fileID: 0}
 --- !u!1001 &1080819018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4682,7 +4719,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh274096
+  m_Name: pb_Mesh22692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4910,6 +4947,11 @@ PrefabInstance:
     - target: {fileID: 4606829752261704, guid: 39aeb83d96ac82246bf5c092137070cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64002142382804014, guid: 39aeb83d96ac82246bf5c092137070cb,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39aeb83d96ac82246bf5c092137070cb, type: 3}
