@@ -26,7 +26,7 @@ public class ChangePitch : MonoBehaviour
     void Update()
     {
 
-        audioSource.pitch += 0.0001f * Time.deltaTime;
+        audioSource.pitch += 0.001f * Time.deltaTime;
 
     }
   
