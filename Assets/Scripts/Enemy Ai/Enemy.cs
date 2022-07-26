@@ -54,6 +54,9 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
+        if (collision.gameObject.CompareTag("Player"))
+        {
         SceneManager.LoadScene("GameOver");
+        }
     }
 }
