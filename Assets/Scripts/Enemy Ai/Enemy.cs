@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
         transform.LookAt(targetPosition);
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
