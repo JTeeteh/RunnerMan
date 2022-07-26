@@ -52,12 +52,4 @@ public class Enemy : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, maxSpeed * Time.deltaTime);
         transform.LookAt(targetPosition);
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-        SceneManager.LoadScene("GameOver");
-        }
-    }
 }
