@@ -16,11 +16,12 @@ public class Enemy : MonoBehaviour
 
     private Transform player;
     private float playerDistance;
-
+    public AudioSource Pitch;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        Pitch.Play();
     }
 
     // Update is called once per frame
