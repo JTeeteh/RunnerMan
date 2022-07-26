@@ -16,7 +16,7 @@ public class ChangePitch : MonoBehaviour
 
         audioSource = GetComponent<AudioSource>();
         audioSource.pitch = 0.02f;
-        audioSource.volume = 0.05f;
+        audioSource.volume = 0.75f;
 
 
 
@@ -27,7 +27,7 @@ public class ChangePitch : MonoBehaviour
     {
 
         audioSource.pitch += 0.001f * Time.deltaTime;
-        audioSource.volume += 0.001f * Time.deltaTime;
+        audioSource.volume -= 0.001f * Time.deltaTime;
     }
   
 }
