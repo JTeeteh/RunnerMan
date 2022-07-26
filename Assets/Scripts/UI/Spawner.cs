@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     [SerializeField]
     float spawndelay;
     [SerializeField]
-    private int enemycountmin = 1, enemycountmax = 1;
+    //private int enemycountmin = 1, enemycountmax = 1;
     public int enemycount;
     float currentTime;
 
