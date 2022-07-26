@@ -51,4 +51,8 @@ public class Enemy : MonoBehaviour
         transform.LookAt(targetPosition);
     }
 
+    private void OnTriggerEnter(Collider collision)
+    {
+        Destroy(collision.gameObject);
+    }
 }
