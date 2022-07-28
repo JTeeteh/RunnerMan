@@ -17,9 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final_Scenes/Credits.unity
     guid: ac2ed64f55100d149b372f4cfc766f31
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Final_Scenes/Stage 1.unity
-    guid: fb5301476e35f7d4c95625d749f2c4a9
+    guid: 3db3677f954dfa247b0926480fbaa165
   - enabled: 1
     path: Assets/Scenes/Final_Scenes/Stage 2.unity
     guid: 994a55618a6d90347b99121ab66e54b9
