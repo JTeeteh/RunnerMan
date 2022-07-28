@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/inital.unity
     guid: 7886cccff01b88b41954954d042232c6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/MainMenu.unity
     guid: 33f307085befb1b418b9e120004faf04
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/Settings.unity
     guid: 28bcb54d21d5d4646afc8e80756b92f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/Credits.unity
     guid: ac2ed64f55100d149b372f4cfc766f31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/Stage 1.unity
     guid: 3db3677f954dfa247b0926480fbaa165
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/Stage 2.unity
     guid: 994a55618a6d90347b99121ab66e54b9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Scenes/Stage 3.unity
     guid: 1ada34531ca3e1248ba30a26029cd8d0
   - enabled: 1
